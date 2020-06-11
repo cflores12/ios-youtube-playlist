@@ -13,6 +13,10 @@
 		80C53EF0249168C3001543FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C53EEE249168C3001543FD /* Main.storyboard */; };
 		80C53EF2249168C9001543FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C53EF1249168C9001543FD /* Assets.xcassets */; };
 		80C53EF5249168C9001543FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C53EF3249168C9001543FD /* LaunchScreen.storyboard */; };
+		80C53EFD2491B96A001543FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C53EFC2491B96A001543FD /* Constants.swift */; };
+		80C53EFF2491C003001543FD /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C53EFE2491C003001543FD /* Video.swift */; };
+		80C53F012491C230001543FD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C53F002491C230001543FD /* Model.swift */; };
+		80C53F032491C9FA001543FD /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C53F022491C9FA001543FD /* ConstantsTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		80C53EF1249168C9001543FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80C53EF4249168C9001543FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80C53EF6249168C9001543FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C53EFC2491B96A001543FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		80C53EFE2491C003001543FD /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		80C53F002491C230001543FD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		80C53F022491C9FA001543FD /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				80C53EF1249168C9001543FD /* Assets.xcassets */,
 				80C53EF3249168C9001543FD /* LaunchScreen.storyboard */,
 				80C53EF6249168C9001543FD /* Info.plist */,
+				80C53EFC2491B96A001543FD /* Constants.swift */,
+				80C53F022491C9FA001543FD /* ConstantsTemplate.swift */,
+				80C53EFE2491C003001543FD /* Video.swift */,
+				80C53F002491C230001543FD /* Model.swift */,
 			);
 			path = "youtube-playlist";
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C53F032491C9FA001543FD /* ConstantsTemplate.swift in Sources */,
 				80C53EED249168C3001543FD /* ViewController.swift in Sources */,
 				80C53EE9249168C3001543FD /* AppDelegate.swift in Sources */,
 				80C53EEB249168C3001543FD /* SceneDelegate.swift in Sources */,
+				80C53F012491C230001543FD /* Model.swift in Sources */,
+				80C53EFD2491B96A001543FD /* Constants.swift in Sources */,
+				80C53EFF2491C003001543FD /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
