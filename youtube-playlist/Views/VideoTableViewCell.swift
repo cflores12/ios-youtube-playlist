@@ -30,6 +30,7 @@ class VideoTableViewCell: UITableViewCell {
     }
     
     func setCell(_ v:Video){
+        
         self.video = v
         
         // Ensure that we have a video
